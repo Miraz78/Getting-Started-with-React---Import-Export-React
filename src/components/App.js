@@ -3,6 +3,7 @@ import '../styles/App.css';
 import Heading from "./Heading";
 import InputQuery from "./InputQuery";
 import SubHeading from "./SubHeading";
+import SubmitButton from "./SubmitButton";
 
 const App = () => {
   return (
@@ -10,8 +11,11 @@ const App = () => {
      <Heading/>
      <SubHeading/>
      <InputQuery/>
+     <SubmitButton/>
     </div>
   )
 }
+
+export default App;
 
 
